@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="es" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Índigo Bárcena | CV</title>
+    <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+    <script src="/_sdk/element_sdk.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: 'Courier Prime', monospace;
+      }
+
+      html, body {
+        height: 100%;
+        background-color: #f5f1ed;
+        color: #1a1a1a;
+      }
+
+      .main-wrapper {
+        height: 100%;
+        width: 100%;
+        overflow-auto;
+        background-color: #f5f1ed;
+      }
+
+      .container-content {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 60px 40px;
+      }
+
+      h1 {
+        font-size: 48px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-bottom: 12px;
+        text-transform: uppercase;
+      }
+
+      h2 {
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-bottom: 2px solid #1a1a1a;
+        padding-bottom: 10px;
+      }
+
+      h3 {
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-bottom: 4px;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 12px;
+      }
+
+      .tagline {
+        font-size: 16px;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+      }
+
+      .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 40px;
+        font-size: 13px;
+      }
+
+      .contact-item {
+        display: flex;
+        gap: 6px;
+      }
+
+      .divider {
+        height: 1px;
+        background-color: #1a1a1a;
+        margin: 30px 0;
+      }
+
+      .job-entry {
+        margin-bottom: 24px;
+      }
+
+      .job-title {
+        font-weight: 700;
+        font-size: 15px;
+      }
+
+      .job-company {
+        font-size: 14px;
+        margin-bottom: 4px;
+      }
+
+      .job-dates {
+        font-size: 13px;
+        margin-bottom: 8px;
+      }
+
+      .job-description {
+        font-size: 13px;
+        margin-left: 20px;
+        line-height: 1.5;
+      }
+
+      .skill-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-bottom: 20px;
+      }
+
+      .skill-tag {
+        font-size: 13px;
+        border: 1px solid #1a1a1a;
+        padding: 6px 12px;
+        background-color: transparent;
+      }
+
+      .collaboration-section {
+        margin-bottom: 30px;
+      }
+
+      .collab-category {
+        font-weight: 700;
+        font-size: 14px;
+        margin-bottom: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      .collab-item {
+        font-size: 13px;
+        margin-bottom: 8px;
+        margin-left: 20px;
+      }
+
+      .education-item {
+        margin-bottom: 12px;
+      }
+
+      .education-degree {
+        font-weight: 700;
+        font-size: 14px;
+      }
+
+      .education-school {
+        font-size: 13px;
+        margin-top: 2px;
+      }
+
+      .cta-button {
+        display: inline-block;
+        border: 2px solid #1a1a1a;
+        padding: 12px 30px;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-decoration: none;
+        color: #1a1a1a;
+        background-color: transparent;
+        cursor: pointer;
+        transition: all 0.2s;
+        font-family: 'Courier Prime', monospace;
+      }
+
+      .cta-button:hover {
+        background-color: #1a1a1a;
+        color: #f5f1ed;
+      }
+
+      .transmedia-item {
+        margin-bottom: 16px;
+      }
+
+      .transmedia-title {
+        font-weight: 700;
+        font-size: 14px;
+      }
+
+      .transmedia-desc {
+        font-size: 13px;
+        margin-top: 2px;
+      }
+
+      .universe-item {
+        margin-bottom: 20px;
+        padding-left: 20px;
+      }
+
+      .universe-name {
+        font-weight: 700;
+        font-size: 14px;
+        margin-bottom: 6px;
+      }
+
+      .universe-desc {
+        font-size: 13px;
+        line-height: 1.5;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 12px;
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid #1a1a1a;
+        opacity: 0.7;
+      }
+    </style>
+    <style>
+      body {
+        box-sizing: border-box;
+      }
+    </style>
+    <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+  </head>
+  <body class="h-full">
+    <div class="main-wrapper">
+      <div class="container-content">
+        <!-- Header -->
+        <header>
+          <h1 id="full-name">ÍNDIGO BÁRCENA</h1>
+          <p id="tagline" class="tagline">
+            Comunicadora &amp; Creadora de Contenido Digital
+          </p>
+          <div class="contact-info">
+            <div class="contact-item">
+              <span>📧</span>
+              <span id="email-text">contacto@indigobarcena.com</span>
+            </div>
+            <div class="contact-item">
+              <span>📍</span> <span id="location-text">Ciudad de México</span>
+            </div>
+          </div>
+        </header>
+        <div class="divider"></div>
+        <!-- About Section -->
+        <section>
+          <h2>Sobre mí</h2>
+          <p id="bio-text">
+            Comunicadora y creadora de contenido digital con enfoque en
+            cobertura social y política. Experiencia en producción editorial,
+            documentación de eventos, redacción estratégica y creación de piezas
+            para redes sociales. Trabajo por proyectos, con capacidad de
+            análisis, sensibilidad informativa y adaptación a agendas dinámicas.
+            Interesada en fortalecer la comunicación política con perspectiva de
+            derechos e inclusión.
+          </p>
+        </section>
+        <!-- Skills Section -->
+        <section>
+          <h2>Habilidades</h2>
+          <div class="skill-tags">
+            <span class="skill-tag">Producción Editorial</span>
+            <span class="skill-tag">Redacción Estratégica</span>
+            <span class="skill-tag">Redes Sociales</span>
+            <span class="skill-tag">Cobertura de Eventos</span>
+            <span class="skill-tag">Fotografía</span>
+            <span class="skill-tag">Producción Audiovisual</span>
+            <span class="skill-tag">Comunicación Política</span>
+            <span class="skill-tag">Análisis de Información</span>
+            <span class="skill-tag">Creatividad Digital</span>
+            <span class="skill-tag">Gestión de Proyectos</span>
+          </div>
+        </section>
+        <!-- Experience Section -->
+        <section>
+          <h2>Experiencia Profesional</h2>
+          <div class="job-entry">
+            <div class="job-title">Project Manager / Desarrolladora</div>
+            <div class="job-company">Omicron Transformación Digital</div>
+            <div class="job-dates">2024 – Actualidad | Ciudad de México</div>
+            <div class="job-description">
+              • Coordinación de equipos multidisciplinarios para diseño y
+              entrega de plataformas web<br />
+              • Supervisión técnica de herramientas educativas y de inclusión
+              digital<br />
+              • Liderazgo en proyectos de transformación digital con enfoque
+              inclusivo
+            </div>
+          </div>
+          <div class="job-entry">
+            <div class="job-title">
+              Comunicación Digital, Identidad Visual y Transformación de
+              Procesos
+            </div>
+            <div class="job-company">Cave Electromecánica S.A. de C.V.</div>
+            <div class="job-dates">2022 – 2024 | Ciudad de México</div>
+            <div class="job-description">
+              • Implementación de materiales digitales y diseño visual para
+              licitaciones<br />
+              • Coordinación de comunicación institucional entre áreas técnicas
+              y directivas<br />
+              • Introducción de herramientas digitales e IA para optimizar
+              procesos administrativos
+            </div>
+          </div>
+          <div class="job-entry">
+            <div class="job-title">
+              Sistemas Administrativos · Cultura Organizacional · Comunicación
+              Estratégica
+            </div>
+            <div class="job-company">BA Electromecánicos S.A. de C.V.</div>
+            <div class="job-dates">2015 – 2022 | Ciudad de México</div>
+            <div class="job-description">
+              • Gestión documental y reportes técnicos de proyectos
+              electromecánicos<br />
+              • Diseño de identidad visual corporativa para clientes públicos y
+              privados<br />
+              • Apoyo en licitaciones, normatividad y comunicación interna
+            </div>
+          </div>
+          <div class="job-entry">
+            <div class="job-title">
+              Atención Ciudadana y Proyectos Comunitarios
+            </div>
+            <div class="job-company">
+              Alcaldía Álvaro Obregón – Dirección de Desarrollo Social
+            </div>
+            <div class="job-dates">2018 – 2021 | Gobierno de CDMX</div>
+            <div class="job-description">
+              • Apoyo directo a grupos en situación de vulnerabilidad<br />
+              • Difusión de campañas de participación ciudadana<br />
+              • Tallerista en Derechos Humanos y educación comunitaria
+            </div>
+          </div>
+        </section>
+        <!-- Collaborations Section -->
+        <section>
+          <h2>Participaciones &amp; Colaboraciones</h2>
+          <div class="collaboration-section">
+            <div class="collab-category">👩‍💻 Educación &amp; Tecnología</div>
+            <div class="collab-item">
+              • Girl Tech Fest MX — Tutora y organizadora de talleres de
+              programación
+            </div>
+            <div class="collab-item">
+              • Mujeres Steam Latam — Diseño de políticas públicas
+            </div>
+            <div class="collab-item">
+              • FITSmx — Redes sociales y fotografía
+            </div>
+            <div class="collab-item">
+              • Lesbian Who Tech México — Fotografía oficial CDMX
+            </div>
+          </div>
+          <div class="collaboration-section">
+            <div class="collab-category">📰 Medios &amp; Comunicación</div>
+            <div class="collab-item">
+              • Periódico Uno más Uno — Fotoperiodismo
+            </div>
+            <div class="collab-item">
+              • Revista Antidogma — Reportera, fotógrafa y diseño
+            </div>
+            <div class="collab-item">
+              • Revista AMA-GI &amp; Students for Liberty — Articulista y diseño
+              gráfico
+            </div>
+            <div class="collab-item">
+              • Agencia Anodis — Reportera y fotografía
+            </div>
+          </div>
+          <div class="collaboration-section">
+            <div class="collab-category">🌍 Organizaciones &amp; Activismo</div>
+            <div class="collab-item">
+              • Students for Liberty — Coordinadora local y creadora de
+              contenidos
+            </div>
+            <div class="collab-item">
+              • Red Mundial de Jóvenes Políticos — Coordinación de Asuntos
+              Internacionales
+            </div>
+            <div class="collab-item">
+              • Ethos Think Tank — Comunicación social
+            </div>
+            <div class="collab-item">
+              • Fundación Club de la Libertad — Diseño gráfico
+            </div>
+            <div class="collab-item">
+              • House of Apocalipstick — Artista visual y performer
+            </div>
+            <div class="collab-item">
+              • Fanzine Ghetto — Fundadora, marca streetwear y agencia
+              coolhunter
+            </div>
+          </div>
+        </section>
+        <!-- Prácticas Profesionales Section -->
+        <section>
+          <h2>Prácticas Profesionales</h2>
+          <div class="collaboration-section">
+            <div class="collab-item">
+              📻 • Radio Educación — Colaboradora en programa "El fin justifica
+              a los Medios"
+            </div>
+            <div class="collab-item">
+              📱 • Telmex Internacional — Becaria Marketing
+            </div>
+            <div class="collab-item">
+              🎙️ • Radio Universitaria UVM - OtakuOnAir — Programa "Pasión por
+              el Manga" - Producción y postproducción
+            </div>
+            <div class="collab-item">
+              🎙️ • Radio Universitaria UVM - Arcoíris Sonoro — Guion, producción
+              y postproducción
+            </div>
+            <div class="collab-item">
+              📰 • Periódico Perspectiva Universitaria - UVM — Periódico por
+              alumnos UVM de la Licenciatura en Ciencias de la Comunicación
+            </div>
+          </div>
+        </section>
+        <!-- Responsabilidad Social Section -->
+        <section>
+          <h2>Responsabilidad Social</h2>
+          <div class="collaboration-section">
+            <div class="collab-item">
+              🏫 • Centro de Educación y Desarrollo Humano (CEDH) — Tallerista
+              para personas con discapacidad
+            </div>
+            <div class="collab-item">
+              🦋 • Metamorfosis Global, A.C. — Tallerista para personas con
+              discapacidad
+            </div>
+          </div>
+        </section>
+        <!-- Transmedia Ecosystem Section -->
+        <section>
+          <h2>Ecosistema Narrativo Transmedia</h2>
+          <p style="margin-bottom: 20px; font-size: 13px">
+            La narrativa se despliega de forma no lineal a través de múltiples
+            lenguajes y medios.
+          </p>
+          <div style="margin-bottom: 30px">
+            <div class="collab-category" style="margin-bottom: 12px">
+              Lógica Transmedia
+            </div>
+            <div class="transmedia-item">
+              <div class="transmedia-title">✍️ Escritura Experimental</div>
+              <div class="transmedia-desc">
+                Ficción especulativa y narrativa no tradicional
+              </div>
+            </div>
+            <div class="transmedia-item">
+              <div class="transmedia-title">🌐 Web Interactiva</div>
+              <div class="transmedia-desc">
+                Sitios y landings como dispositivos narrativos
+              </div>
+            </div>
+            <div class="transmedia-item">
+              <div class="transmedia-title">🎨 Arte Visual Digital</div>
+              <div class="transmedia-desc">
+                Collage y experimentación visual
+              </div>
+            </div>
+            <div class="transmedia-item">
+              <div class="transmedia-title">👗 Moda y Objetos</div>
+              <div class="transmedia-desc">
+                Esculturas como dispositivos simbólicos
+              </div>
+            </div>
+            <div class="transmedia-item">
+              <div class="transmedia-title">🎭 Performance e Identidad</div>
+              <div class="transmedia-desc">
+                Presencia digital y estética sonora
+              </div>
+            </div>
+          </div>
+          <div style="margin-bottom: 30px">
+            <div class="collab-category" style="margin-bottom: 16px">
+              Universos que lo Componen
+            </div>
+            <div class="universe-item">
+              <div class="universe-name">🌐 Delulu Future Dev</div>
+              <div class="universe-desc">
+                Hub central del multiverso que integra arte, diseño y desarrollo
+                web como práctica creativa. La tecnología se entiende como
+                lenguaje narrativo y herramienta de expresión.
+              </div>
+            </div>
+            <div class="universe-item">
+              <div class="universe-name">🎤 Clancy Pink Punk</div>
+              <div class="universe-desc">
+                Identidad artística y performativa que articula música,
+                visuales, escritura y presencia digital. Explora temas de
+                género, identidad, emoción y glitch cultural.
+              </div>
+            </div>
+            <div class="universe-item">
+              <div class="universe-name">🎨 Wu Wei Neurospicy MX</div>
+              <div class="universe-desc">
+                Proyecto de moda consciente y objetos artísticos donde prendas y
+                esculturas funcionan como relatos encarnados. Inspirado en el
+                Tao y la práctica contemplativa.
+              </div>
+            </div>
+            <div class="universe-item">
+              <div class="universe-name">
+                📚 Narrativa Experimental / Weird Fiction
+              </div>
+              <div class="universe-desc">
+                Espacio de escritura donde textos rompen estructuras clásicas y
+                operan como experiencia sensorial, manifiesto poético y
+                exploración especulativa.
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Photography Section -->
+        <section>
+          <h2>Fotografía</h2>
+          <p style="margin-bottom: 20px; font-size: 13px">
+            Eje central de la práctica creativa. Trabajo desde distintos
+            géneros, entendiendo la imagen como archivo, testimonio y
+            herramienta narrativa.
+          </p>
+          <div class="collaboration-section">
+            <div class="transmedia-item">
+              <div class="transmedia-title">📷 Fotoperiodismo</div>
+              <div class="transmedia-desc">
+                Documentación de eventos sociales, políticos y culturales con
+                mirada crítica y compromiso ético
+              </div>
+            </div>
+            <div class="transmedia-item">
+              <div class="transmedia-title">👤 Retrato</div>
+              <div class="transmedia-desc">
+                Retratos que exploran identidad, presencia y narrativa personal
+              </div>
+            </div>
+            <div class="transmedia-item">
+              <div class="transmedia-title">📖 Fotografía Editorial</div>
+              <div class="transmedia-desc">
+                Imágenes conceptuales para revistas, publicaciones y proyectos
+                editoriales
+              </div>
+            </div>
+            <div class="transmedia-item">
+              <div class="transmedia-title">
+                🎭 Cobertura Cultural / Eventos
+              </div>
+              <div class="transmedia-desc">
+                Registro de exposiciones, conciertos, performances y eventos
+                artísticos
+              </div>
+            </div>
+            <div class="transmedia-item">
+              <div class="transmedia-title">🏢 Fotografía Publicitaria</div>
+              <div class="transmedia-desc">
+                Imágenes comerciales con dirección creativa y narrativa visual
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Awards Section -->
+        <section>
+          <h2>Reconocimientos Profesionales</h2>
+          <div class="collaboration-section">
+            <div class="collab-item">
+              2020 · Integrante del Colegio de Políticas Públicas Elinor Ostrom
+              (Think Tank) - Sistema de Investigadores del Partido Acción
+              Nacional
+            </div>
+            <div class="collab-item">
+              2015 · Finalista en la exposición de la Segunda Bienal Galería
+              Héctor García (Fotografía)
+            </div>
+            <div class="collab-item">
+              2009 · Segundo lugar spot "Antes De Que Nos Olviden" - Radio Arte,
+              Universidad del Valle de México
+            </div>
+            <div class="collab-item">
+              2008 · Tercer lugar spot "Por un consumo responsable de alcohol" -
+              Imagina Cuervo concurso
+            </div>
+            <div class="collab-item">
+              2007 · 1er lugar spot "Violencia en el noviazgo" - Radio Educación
+              (Guionista y editora de audio)
+            </div>
+          </div>
+        </section>
+        <!-- Exhibitions Section -->
+        <section>
+          <h2>Exposiciones Fotográficas Colectivas</h2>
+          <div class="collaboration-section">
+            <div class="collab-item">
+              📸 • Segunda Bienal Galería Héctor García (2015) — Finalista en la
+              exposición de fotografía
+            </div>
+            <div class="collab-item">
+              🏛️ • Una Visión tres Lentes (2013) — Casa de Cultura Alfonso Reyes
+            </div>
+            <div class="collab-item">
+              🖼️ • Proyecto Galerías Cuauhtémoc (2013) — Exposición fotográfica
+            </div>
+            <div class="collab-item">
+              📷 • Doble Vía - La Miscelánea (2013) — Exposición fotográfica
+              colectiva
+            </div>
+            <div class="collab-item">
+              🏛️ • Espacio Cultural Ibero - Doble Vía (2013) — Exposición
+              fotográfica
+            </div>
+            <div class="collab-item">
+              👩 • Galería Virtual Mujeres (2023) — Centro Cultural El Rule
+            </div>
+          </div>
+        </section>
+        <!-- Journalism Section -->
+        <section>
+          <h2>Periodismo &amp; Narrativa</h2>
+          <p style="margin-bottom: 20px; font-size: 13px">
+            Trabajo periodístico que combina investigación, análisis crítico y
+            narrativa. Escribo desde la intersección entre cultura, tecnología,
+            identidad y política.
+          </p>
+          <div class="collaboration-section">
+            <div class="transmedia-item">
+              <div class="transmedia-title">🎤 Entrevistas</div>
+              <div class="transmedia-desc">
+                Conversaciones profundas con artistas, activistas y creadoras
+              </div>
+            </div>
+            <div class="transmedia-item">
+              <div class="transmedia-title">✏️ Redacción Editorial</div>
+              <div class="transmedia-desc">
+                Artículos de opinión, ensayos y columnas para medios digitales e
+                impresos
+              </div>
+            </div>
+            <div class="transmedia-item">
+              <div class="transmedia-title">📝 Crónica</div>
+              <div class="transmedia-desc">
+                Narrativa periodística que entreteje testimonio, contexto y
+                experiencia
+              </div>
+            </div>
+            <div class="transmedia-item">
+              <div class="transmedia-title">📖 Storytelling</div>
+              <div class="transmedia-desc">
+                Construcción de narrativas para marcas, proyectos sociales y
+                culturales
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Design Section -->
+        <section>
+          <h2>Diseño Editorial &amp; Gráfico</h2>
+          <p style="margin-bottom: 20px; font-size: 13px">
+            Lenguaje visual que articula ideas, emociones y conceptos. Trabajo
+            desde la experimentación, combinando técnicas tradicionales y
+            digitales.
+          </p>
+          <div class="collaboration-section">
+            <div class="transmedia-item">
+              <div class="transmedia-title">📚 Diseño Editorial</div>
+              <div class="transmedia-desc">
+                Maquetación de libros, revistas, fanzines y publicaciones
+                digitales
+              </div>
+            </div>
+            <div class="transmedia-item">
+              <div class="transmedia-title">🎨 Diseño Gráfico</div>
+              <div class="transmedia-desc">
+                Identidad visual, branding, carteles y piezas gráficas para
+                proyectos culturales
+              </div>
+            </div>
+            <div class="transmedia-item">
+              <div class="transmedia-title">🖌️ Ilustración</div>
+              <div class="transmedia-desc">
+                Trabajo con acuarela, tinta china y técnica mixta, creando
+                imágenes que dialogan con texto y concepto
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Education Section -->
+        <section>
+          <h2>Formación Académica</h2>
+          <div style="margin-bottom: 20px">
+            <div class="collab-category" style="margin-bottom: 8px">
+              Maestrías
+            </div>
+            <div class="education-item">
+              <div class="education-degree">
+                Maestría en Creatividad Digital
+              </div>
+              <div class="education-school">
+                Centro Universitario de Comunicación
+              </div>
+            </div>
+            <div class="education-item">
+              <div class="education-degree">
+                Maestría en Comunicación e Identidad Corporativa
+              </div>
+              <div class="education-school">Universidad de la Rioja</div>
+            </div>
+          </div>
+          <div style="margin-bottom: 20px">
+            <div class="collab-category" style="margin-bottom: 8px">
+              Licenciatura
+            </div>
+            <div class="education-item">
+              <div class="education-degree">
+                Licenciatura en Ciencias de la Comunicación
+              </div>
+              <div class="education-school">
+                Universidad del Valle de México
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="collab-category" style="margin-bottom: 8px">
+              Carreras Técnicas
+            </div>
+            <div class="education-item">
+              <div class="education-degree">Carrera Técnica en Fotografía</div>
+              <div class="education-school">Escuela Activa de Fotografía</div>
+            </div>
+            <div class="education-item">
+              <div class="education-degree">
+                Carrera Técnica en Producción de Radio y Televisión
+              </div>
+              <div class="education-school">
+                Centro de Capacitación Radio y Televisión Raúl del Campo
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- CTA -->
+        <section style="text-align: center; margin-top: 50px">
+          <p style="margin-bottom: 20px">¿Trabajamos juntos?</p>
+          <a href="mailto:contacto@indigobarcena.com" class="cta-button"
+            >CONTACTAR</a
+          >
+        </section>
+        <!-- Footer -->
+        <footer>© 2024 Índigo Bárcena · Todos los derechos reservados</footer>
+      </div>
+    </div>
+    <script>
+      const defaultConfig = {
+        full_name: "ÍNDIGO BÁRCENA",
+        tagline: "Comunicadora & Creadora de Contenido Digital",
+        bio_text:
+          "Comunicadora y creadora de contenido digital con enfoque en cobertura social y política. Experiencia en producción editorial, documentación de eventos, redacción estratégica y creación de piezas para redes sociales. Trabajo por proyectos, con capacidad de análisis, sensibilidad informativa y adaptación a agendas dinámicas. Interesada en fortalecer la comunicación política con perspectiva de derechos e inclusión.",
+        email_text: "contacto@indigobarcena.com",
+        location_text: "Ciudad de México",
+        font_family: "Courier Prime",
+        font_size: 14,
+      };
+
+      async function onConfigChange(config) {
+        document.getElementById("full-name").textContent =
+          config.full_name || defaultConfig.full_name;
+        document.getElementById("tagline").textContent =
+          config.tagline || defaultConfig.tagline;
+        document.getElementById("bio-text").textContent =
+          config.bio_text || defaultConfig.bio_text;
+        document.getElementById("email-text").textContent =
+          config.email_text || defaultConfig.email_text;
+        document.getElementById("location-text").textContent =
+          config.location_text || defaultConfig.location_text;
+
+        const fontSize = config.font_size || defaultConfig.font_size;
+        document.documentElement.style.setProperty(
+          "--base-font-size",
+          fontSize + "px"
+        );
+      }
+
+      function mapToCapabilities(config) {
+        return {
+          recolorables: [],
+          borderables: [],
+          fontEditable: {
+            get: () => config.font_family || defaultConfig.font_family,
+            set: (value) => {
+              config.font_family = value;
+              window.elementSdk.setConfig({ font_family: value });
+            },
+          },
+          fontSizeable: {
+            get: () => config.font_size || defaultConfig.font_size,
+            set: (value) => {
+              config.font_size = value;
+              window.elementSdk.setConfig({ font_size: value });
+            },
+          },
+        };
+      }
+
+      function mapToEditPanelValues(config) {
+        return new Map([
+          ["full_name", config.full_name || defaultConfig.full_name],
+          ["tagline", config.tagline || defaultConfig.tagline],
+          ["bio_text", config.bio_text || defaultConfig.bio_text],
+          ["email_text", config.email_text || defaultConfig.email_text],
+          [
+            "location_text",
+            config.location_text || defaultConfig.location_text,
+          ],
+        ]);
+      }
+
+      if (window.elementSdk) {
+        window.elementSdk.init({
+          defaultConfig,
+          onConfigChange,
+          mapToCapabilities,
+          mapToEditPanelValues,
+        });
+      }
+    </script>
+    <script>
+      (function () {
+        function c() {
+          var b = a.contentDocument || a.contentWindow.document;
+          if (b) {
+            var d = b.createElement("script");
+            d.innerHTML =
+              "window.__CF$cv$params={r:'9cdc1c2fa0c9c6a2',t:'MTc3MTA2NzMzMy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
+            b.getElementsByTagName("head")[0].appendChild(d);
+          }
+        }
+        if (document.body) {
+          var a = document.createElement("iframe");
+          a.height = 1;
+          a.width = 1;
+          a.style.position = "absolute";
+          a.style.top = 0;
+          a.style.left = 0;
+          a.style.border = "none";
+          a.style.visibility = "hidden";
+          document.body.appendChild(a);
+          if ("loading" !== document.readyState) c();
+          else if (window.addEventListener)
+            document.addEventListener("DOMContentLoaded", c);
+          else {
+            var e = document.onreadystatechange || function () {};
+            document.onreadystatechange = function (b) {
+              e(b);
+              "loading" !== document.readyState &&
+                ((document.onreadystatechange = e), c());
+            };
+          }
+        }
+      })();
+    </script>
+  </body>
+</html>
